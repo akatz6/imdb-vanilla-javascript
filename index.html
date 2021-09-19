@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row col-6 offset-3 mt-4">
+        <select
+          id="mySelect"
+          class="form-select"
+          aria-label="Default select example"
+        >
+          <option selected>Open this select menu</option>
+          <option value="tt1924245">Cry Macho</option>
+          <option value="tt11121664">Blue Bayou</option>
+          <option value="tt9115530">The Eyes of Tammy Faye</option>
+          <option value="tt6372694">Prisoners of the Ghostland</option>
+          <option value="tt11826450">Lady of the Manor</option>
+          <option value="tt10441822">The Nowhere Inn</option>
+          <option value="tt10339052">Best Sellers</option>
+          <option value="tt5748448">Cop Shop</option>
+          <option value="tt8906722">The Killing of Kenneth Chamberlain</option>
+          <option value="tt13368696"
+            >The Wonderful: Stories from the Space Station</option
+          >
+        </select>
+      </div>
+    </div>
+    <div id="movieResults">
+      <div class="container">
+        <div class="row col-6 offset-3 mt-4" id="results">
+          <img src="/" alt="temp" id="poster" />
+          <div class="row">
+            <h3 id="title"></h3>
+            <p id="plot"></p>
+            <p id="stars"></p>
+            <p id="runtimeStr"></p>
+            <p id="contentRating"></p>
+            <p id="year"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
